@@ -4,6 +4,7 @@ const countdownElement = document.getElementById('countdown');
 const animationElement = document.getElementById('animation');
 const genderTextElement = document.getElementById('genderText');
 
+
 revealButton.addEventListener('click', () => {
   revealButton.disabled = true;
   revealContainer.classList.remove('hidden');
@@ -22,5 +23,4 @@ revealButton.addEventListener('click', () => {
       document.body.style.backgroundColor = gender === 'Menino' ? 'rgb(173, 214, 250)' : ' rgb(244, 205, 253)';
     }
   }, 1000);
-
 });

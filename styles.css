@@ -25,6 +25,7 @@ body {
   }
 
   button{
+
     font-family: 'Merienda';
     margin-top: 15%;
     text-transform: capitalize;
@@ -38,6 +39,12 @@ body {
     letter-spacing: 1px;
     cursor: pointer;
     text-shadow: rgb(133, 166, 255) 1px 1px;
+
+    
+    /*background-color: transparent;
+    border-radius: 24px;
+    border: 3px solid rgba(257, 257, 257, .4);
+    backdrop-filter: blur(25px);*/
 }
 
 button:hover {
