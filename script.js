@@ -13,7 +13,7 @@ revealButton.addEventListener('click', () => {
   revealButton.disabled = true;
   revealContainer.classList.remove('hidden');
   revealButton.classList.add('hidden');
-  let countdown = 15;
+  let countdown = 10;
   const countdownInterval = setInterval(() => {
     countdown--;
     countdownElement.innerText = countdown.toString();
