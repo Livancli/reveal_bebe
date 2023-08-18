@@ -84,7 +84,7 @@ button:hover {
     margin-top: 20px;
     color: white;
     display: none;
-    position: fixed;
+    position: relative;
   }
 
   #ballerine {
@@ -109,3 +109,9 @@ button:hover {
   #carrinho {
     margin-top: -15%;
   }
+
+  .gender-image {
+    position: relative;
+    top: -80px;
+  }
+  
