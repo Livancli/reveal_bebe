@@ -20,7 +20,7 @@ revealButton.addEventListener('click', () => {
       genderTextElement.innerText = gender;
       animationElement.innerText = gender === 'Menino' ? '👦Menino' : '👧Menina';
       countdownElement.classList.add('hidden');
-      document.body.style.backgroundColor = gender === 'Menino' ? 'rgb(173, 214, 250)' : ' rgb(244, 205, 253)';
+      document.body.style.backgroundImage = gender === 'Menino' ? 'url(./img/nuvemAzul.jpg)' : 'url(./img/nuvemRosa.jpg)';
     }
   }, 1000);
 });

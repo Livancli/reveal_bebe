@@ -11,8 +11,8 @@ body {
     text-align: center;
     
     /*background-color: rgb(112, 230, 251) ;*/
-    /*background-image: url(./img/6493501.jpg);*/
-    /*( to right, rgb(6, 63, 133), rgb(104, 5, 115) );*/
+    background-image: url(./img/6493501.jpg);
+    /*background-image: linear-gradient( to right, rgb(149, 197, 255), rgb(246, 165, 255) );*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -66,17 +66,17 @@ button:hover {
   }
   
   #countdown {
-    font-size: 58px;
+    font-size: 55px;
     margin-top: 5%;
-    color: white;
-    text-shadow: black 1px 1px;
+    color: rgba(255, 255, 255, 0.843);
+    text-shadow: black 1px 1px 5px;
   }
   
   #animation {
     padding-top: 15%;
     font-size: 80px;
     color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 1px 1px;
+    text-shadow: rgb(255, 255, 255) 1px 1px;
   }
   
   #gender {
@@ -97,7 +97,7 @@ button:hover {
   #boy {
     color: rgb(127, 195, 255);
     font-size: 45px;
-    text-shadow: rgb(255, 255, 255) 1px 1px;
+    text-shadow: rgb(255, 255, 255) 1px 1p;
   }
 
   #girl {
